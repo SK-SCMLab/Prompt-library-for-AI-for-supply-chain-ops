@@ -3,7 +3,7 @@ This repository represents the detailed prompt engineering examples using elemen
 
 ---
 
-##🦑 Elements of prompt
+## 🦑 Elements of prompt
 A prompt's form depends on a task you are giving to a model. As you explore prompt engineering example, you will review prompts containing some or all the following elements:
 - *Introduction* provides a task description or instruction for how the model should perform
 - *Context* is external information to guide the model
