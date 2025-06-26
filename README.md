@@ -70,3 +70,57 @@ Recommend:
 
 ---
 
+## 🐅 Prompt 3: Excess inventory
+
+### Introduction
+Help reduce excess finished goods inventory by aligning production closer to actual sales and order trends
+
+### Context
+The plant maintains higher finished goods and in-process inventory than required, causing increased holding costs and space constraints
+
+### Input
+"Here is the current finished goods and WIP inventory data:
+- Inventory by SKU: [List SKU, quantity, location, turnover rate]
+- Sales forecast: [List anticipated order volume by SKU/week]
+- Production constraints: [List equipment constraints and lead times]
+
+### Output indicator
+Should output:
+- Suggested SKU production adjustment priorities
+- Dynamic reallocation between Make-to-Stock (MTS) and Make-To-Order (MTO)
+- Actionable recommendations for reducing aging inventory
+- Suggested production batch sizes aligning with forecasted sales
+
+---
+
+## 🐠 Prompt 4: Late orders
+
+### Introduction
+Help identify delays and purpose realistic rescheduling and recovery options for late orders
+
+### Context
+Several customer orders have missed their promised due dates due to delays in upstream or downstream operations
+
+### Input
+"Here is the order status data:
+- [List of delayed orders, quantity, due dates]
+- [Status of in-process materials]
+- [Resource availability and constraints]
+- [Alternative processing lines available]"
+
+### Output indicator
+Should produce:
+- Recovery schedule with revised due dates
+- Prioritized job queue
+- Suggested overtime or shift changes
+- Impact assessment and alternatives for critical customer committments
+
+---
+
+## 🐔 Requirements
+- Foundations of Prompt engineering
+- Basic of AI systems (Amazon Titan Large)
+
+---
+
+*"Prompt engineering is the art of extracting precision from intelligence"*
