@@ -26,19 +26,19 @@ It is important to review the model's responses to ensure that the prompts are e
 
 ## 🦋 Prompt 1: Unplanned Customer orders
 
-**Introduction**
+### Introduction
 Evaluate the impact of unplanned customer orders and recommend ways to adjust production schedules, minimizing disruption and delays
 
-**Context**
+### Context
 A steel manufacturing plant receives unexpected customer orders that must be fulfilled quickly. This disrupts existing production and order sequences
 
-**Input**
+### Input
 "Here is the production schedule, available resource constraints, and new unplanned customer details:
 - Current orders: [List of jobs and deadlines]
 - New order quantity and desired delivery date: [Input quantity and deadline]
 - Resource availability: [List of available mills, shift timings, constraints]"
 
-**Output indicator**
+### Output indicator
 Return an optimized schedule that includes the new order, highlighting:
 - Suggested sequence of jobs
 - Resource allocations
