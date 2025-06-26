@@ -23,3 +23,26 @@ A prompt's form depends on a task you are giving to a model. As you explore prom
 It is important to review the model's responses to ensure that the prompts are eliciting the appropriate quality, type, and range of responses. Make changes to the prompts if needed. You can even ask one copy of the model to improve or check output from another copy of the model. With experimentation, you will gain intuition for crafting and optimizing prompts to best suit your needs and models. Prompt engineering is an iterative skill and improves with practice
 
 ---
+
+## 🦋 Prompt 1: Unplanned Customer orders
+
+**Introduction**
+Evaluate the impact of unplanned customer orders and recommend ways to adjust production schedules, minimizing disruption and delays
+
+**Context**
+A steel manufacturing plant receives unexpected customer orders that must be fulfilled quickly. This disrupts existing production and order sequences
+
+**Input**
+"Here is the production schedule, available resource constraints, and new unplanned customer details:
+- Current orders: [List of jobs and deadlines]
+- New order quantity and desired delivery date: [Input quantity and deadline]
+- Resource availability: [List of available mills, shift timings, constraints]"
+
+**Output indicator**
+Return an optimized schedule that includes the new order, highlighting:
+- Suggested sequence of jobs
+- Resource allocations
+- Impact on existing order delivery times
+- Proposed mitigation measures
+
+---
