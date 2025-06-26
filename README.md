@@ -46,3 +46,26 @@ Return an optimized schedule that includes the new order, highlighting:
 - Proposed mitigation measures
 
 ---
+
+## 🫎 Prompt 2: Unbalanced Resource utilization
+
+**Introduction**
+Balance workloads across equipment and shifts, ensuring maximum utilization and minimal downtime
+
+**Context**
+The manufacturing process has certain bottleneck resources (e.g. specific rolling mills) leading to delays, while other equipment operates below capacity
+
+**Input**
+"Here is the current load across equipment lines and shift patterns:
+- Resource status: [List of equipment, shift load, available slots]
+- Order backlog: [List of pending jobs with processing times, due dates]
+- Maintenance constraints: [List of downtime windows]"
+
+**Output indicator**
+Recommend:
+- Adjusted shift allocations
+- Dynamic load-balancing strategy
+- Resource reassignments
+- Projected improvements in lead times and equipment utilization
+
+---
